@@ -1,0 +1,126 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 2
+
+   Mobile Styles
+   Author: Alan November
+   Date:   6/14/2014 
+
+   Filename:         wcmobile.css
+   Supporting Files: 
+
+*/
+
+/* Hide page elements that will not be displayed */
+
+header nav, header img, section, aside, footer {
+	display: none;
+	}
+
+/* set background color */
+
+body {
+	background-color: rgb(107,140,80);
+	}
+
+/* Header styles */
+
+header {
+	background: rgb(151,201,151) url("willet.jpg") left center no-repeat;
+	background-image: contain;
+
+	height: 50px;
+	width: 100%;
+	}
+
+ @media screen and (orientation: portrait) {
+/* style rules for nav list */
+
+#holes nav {
+		width: 100%
+	}
+
+#holes h1 {
+	font-size: 25px;
+	color: white;
+	margin: 15px;
+	text-align: center;
+	}
+
+nav#holes ul li#h1, ul li#h2, ul li#h3, ul li#h4,ul li#h5,ul li#h6,ul li#h7,ul li#h8,ul li#h9, ul li#h10, ul li#h11, ul li#h12, ul li#h13, ul li#h14,ul li#h15,ul li#h16,ul li#h17,ul li#h18{
+		display: block;
+		background: url("arrow.png") right center no-repeat;
+		width: 60%;
+		height: 50px;
+		margin: 5px auto;
+		border: 1px white solid;
+
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+
+	-moz-box-shadow: inset rgba(51,51,51,0.5) 10px 5px 20px;
+	-webkit-box-shadow: inset rgba(51,51,51,0.5) 10px 5px 20px;
+	box-shadow: inset rgba(51,51,51,0.5) 10px 5px 20px;
+	}
+
+nav#holes ul a {
+	display: block;
+	width: 100%;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+	
+	}
+
+#holes ul li:nth-child(odd) {background-color: rgb(187,105,123)}
+
+#holes ul li:nth-child(even) {background-color: rgb(150,80,100)}
+}
+
+ @media screen and (orientation: landscape) {
+/* style rules for nav list */
+
+ nav#holes {
+		width: 100%
+	}
+
+#holes h1 {
+	font-size: 25px;
+	color: white;
+	margin: 15px;
+	text-align: center;
+	}
+
+nav#holes ul li#h1, ul li#h2, ul li#h3, ul li#h4,ul li#h5,ul li#h6,ul li#h7,ul li#h8,ul li#h9, ul li#h10, ul li#h11, ul li#h12, ul li#h13, ul li#h14,ul li#h15,ul li#h16,ul li#h17,ul li#h18{
+		display: block;
+		float: left;
+		background: url("arrow.png") right center no-repeat;
+		width: 30%;
+		height: 50px;
+		margin: 5px;
+		border: 1px white solid;
+
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+
+	-moz-box-shadow: inset rgba(51,51,51,0.5) 10px 5px 20px;
+	-webkit-box-shadow: inset rgba(51,51,51,0.5) 10px 5px 20px;
+	box-shadow: inset rgba(51,51,51,0.5) 10px 5px 20px;
+	}
+
+ nav#holes li a {
+	display: block;
+	width: 100%;
+	height: 50px;
+	color: white;
+	text-align: center;
+	margin: 15px auto;
+	}
+
+#holes ul li:nth-of-type(odd) {background-color: rgb(187,105,123)}
+
+#holes ul li:nth-of-type(even) {background-color: rgb(150,80,100)}
+}
