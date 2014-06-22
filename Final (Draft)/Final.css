@@ -8,10 +8,10 @@ body {
 }
 
 #masthead {
-	font: 48px Impact;
+	font: 40px Impact;
 	letter-spacing: 5px;
-	padding: 20px 0px 10px 0px;
-	height: 10%;
+	padding: 20px 0px 5px 0px;
+	height: 8%;
 	border: thin black solid;
 	background-color: #645957;
 	color: #6FFF6F;
@@ -39,10 +39,12 @@ body {
 }
 
 #page_content {
+	font: normal normal 200 large "arial black";
 	margin-left: 200px;
 	border: thin black solid;
 	height: 70%;
 	background: -moz-radial-gradient(top left, #669999, #D50000, #669999);
+	color: #00FF00;
 }
 
 #footer {
@@ -53,5 +55,10 @@ body {
 	background-color: #95706A;
 	text-align: center;
 	color: #FFFFFF;
+}
+
+.websites p {
+	color: blue;
+	font: normal normal 200 36px arial black;
 }
 

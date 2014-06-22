@@ -13,12 +13,18 @@
 <style type="text/css">
 .auto-style1 {
 	text-align: center;
+	margin-top:0px;
 }
 
 	
 .auto-style3 {
-	vertical-align: middle;
-	margin-top: 17px;
+	vertical-align: top;
+	margin-top: 0px;
+}
+
+	
+.auto-style4 {
+	text-align: left;
 }
 
 	
@@ -65,7 +71,8 @@ function FP_getObjectByID(id,o) {//v1.0
 		<a href="finalConsoles.html">
 		<img id="img2" alt="Consoles" fp-style="fp-btn: Embossed Capsule 8; fp-font-style: Bold; fp-font-size: 16; fp-font-color-hover: #FFFFFF; fp-font-color-press: #FF0000; fp-transparent: 1" fp-title="Consoles" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button2A.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button33.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button31.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button31.gif')" src="button33.gif" style="border: 0; padding: 30" width="200"></a><br>
 		<br>
-		<img id="img3" alt="Links" fp-style="fp-btn: Embossed Capsule 8; fp-font-style: Bold; fp-font-size: 16; fp-font-color-hover: #FFFFFF; fp-font-color-press: #FF0000; fp-transparent: 1" fp-title="Links" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button2D.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button2B.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button2C.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button2C.gif')" src="button2B.gif" style="border: 0; padding: 30" width="200"><br>
+		<a href="finalLinks.html">
+		<img id="img3" alt="Links" fp-style="fp-btn: Embossed Capsule 8; fp-font-style: Bold; fp-font-size: 16; fp-font-color-hover: #FFFFFF; fp-font-color-press: #FF0000; fp-transparent: 1" fp-title="Links" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button2D.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button2B.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button2C.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button2C.gif')" src="button2B.gif" style="border: 0; padding: 30" width="200"></a><br>
 		<br>
 		<img id="img4" alt="Support" fp-style="fp-btn: Embossed Capsule 8; fp-font-style: Bold; fp-font-size: 16; fp-font-color-hover: #FFFFFF; fp-font-color-press: #FF0000; fp-transparent: 1" fp-title="Support" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button32.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button2E.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button2F.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button2F.gif')" src="button2E.gif" style="border: 0; padding: 30" width="200">
 		
@@ -73,25 +80,45 @@ function FP_getObjectByID(id,o) {//v1.0
 	
 	<div id="page_content">
 				
-		<div id="layer1" style="position: absolute; width: 769px; height: 495px; z-index: 1; left: 365px; top: 192px">
-			<table class="auto-style2" style="width: 100%; position:relative; left: 125px; top: 46px; height: 85%;">
+		<div id="layer1" style="position: absolute; width: 563px; height: 506px; z-index: 1; left: 365px; top: 192px">
+			<table class="auto-style2" style="width: 152%; position:relative; left: 3px; top: -113px; height: 142%;">
 				<tr>
-					<td style="font: normal normal bolder medium serif; height: 219px; width: 392px; color: #FFFFFF;" class="auto-style1">
+					<td style="font: normal normal bolder medium serif; width: 392px; color: #FFFFFF; margin-top: 0px;" class="auto-style1">
 					<a href="console_wii.html">
 					<img id="ps3_1" alt="Nintendo Wii" class="auto-style3" height="357" src="Wii-Console_big.png" width="432"></a><br>
-					<br>Nintendo Wii</td>
+					<br>Nintendo Wii (range $100 - $500)<br>Click on games below to view:
+					<div id="layer2" style="position: absolute; width: 70px; height: 100px; z-index: 1; left: -25px; top: 606px">
+						<a href="http://www.metroid.com/primetrilogy/#/intro" target="_blank">
+						<img class="xgames" alt="Metroid Prime" height="100" src="metroid_wii.jpg" width="70" style="border-width: 0px"></a></div>
+					<div id="layer3" style="position: absolute; width: 70px; height: 100px; z-index: 1; left: 100px; top: 606px">
+						<a href="http://www.supermariogalaxy.com/" target="_blank">
+						<img class="xgames"  alt="Super Mario Galaxy 2" height="100" src="smg_wii.jpg" width="70"></a></div>					
+					<div id="layer4" style="position: absolute; width: 70px; height: 100px; z-index: 1; left: 225px; top: 606px">
+						<a href="http://www.smashbros.com/us/" target="_blank">
+						<img class="xgames"  alt="Super Smash Bros. Brawl" height="100" src="SSBB_Cover.jpg" width="70" style="border-width: 0px"></a></div>						
+					<div id="layer5" style="position: absolute; width: 70px; height: 100px; z-index: 1; left: 350px; top: 606px">
+						<a href="http://zelda.com/skywardsword/" target="_blank">
+						<img class="xgames"  alt="The Legend of Zelda" height="100" src="The_Legend_of_Zelda_-_Skyward_Sword_(North_America).png" width="70"></a></div>
 					
-					<td style="font: normal normal bolder medium serif; height: 219px; color: #00FF00;" class="auto-style1">
-					<br><br><br><br><br><br><br><br></td>
+					</td>
+					
+					<td style="padding: 100 0 0 0; font: normal normal normal medium serif; color: #000000; margin-top: 100" class="auto-style4">
+						<span style="font-weight: bolder; text-decoration: underline; ">Key Features:</span>
+						<ul style="overflow:inherit; width: 464px;">
+						
+							<li><b>Experience some of gaming's most memorable franchises -</b>  The Wii features some of the most beloved franchises in gaming, including Mario and friends, The Legend of Zelda and Super Smash Bros.</li>
+							<li><b>Enjoy the Wii's extensive game lineup-</b> The Wii is home to nearly 1,400 disc-based games, and almost all of them are compatible with the Wii mini. Mario Kart Wii included; additional games sold separately.</li>
+							<li><strong>Innovative motion controls</strong> - The Wii Remote Plus delivers enhanced motion control, allowing you to swing your controller like a baseball bat, twist it like a key, thrust it like a sword and more to accomplish corresponding actions in your game</li>
+							<li><strong>Built-in Wi-Fi networking</strong> - You can easily connect to your home network and broadband connection for online gaming.</li>
+							<li><strong>A memory card slot that accepts SD cards</strong> - Use this for adding additional memory to the console and for displaying photos on the screen.</li>
+							<li><strong>Some serious horsepower under the hood</strong> - The Wii has an IBM Power PC CPU and an ATI “Hollywood” graphics chip.</li>
+
+						</ul>
+						
+					</td>
 				</tr>
 				
-				<tr>
-					<td style="height: 298px; width: 392px;">
-					</td>
-					<td style="height: 298px">
-					&nbsp;</td>
-				</tr>
-			</table>
+				</table>
 		</div>
 				
 		</div>
