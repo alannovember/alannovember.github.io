@@ -1,0 +1,26 @@
+﻿/* mobile css */
+
+#masthead, #top_nav, #footer{
+	display: none;
+}
+
+#masthead {
+	background: rgb(137,95,95) url(mob_banner.png) center center no-repeat;
+		
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+
+	height: 50px;
+	width: 100%;	
+}
+
+img#img1.nav_butn {
+	height: 10px;
+	width: 50px;
+	
+}
+
+@media screen and (orientation: portrait) {
+	
