@@ -1,0 +1,64 @@
+﻿  /* CSS layout */
+body {
+	height: 110%;
+	width: 95%;
+	margin: auto;
+	padding: 10px;
+	
+}
+
+#masthead {
+	font: 40px Impact;
+	letter-spacing: 5px;
+	padding: 20px 0px 5px 0px;
+	height: 8%;
+	border: thin black solid;
+	background-color: #645957;
+	color: #6FFF6F;
+}
+
+#top_nav {
+	font: normal normal bolder 100% Arial, Helvetica, sans-serif;
+	height: 5%;
+	border: thin black solid;
+	background-color: black;
+	color: yellow;
+	font-size: 28;
+	line-height: 0px;
+	
+}
+
+
+#left_col {
+	padding: 30 0 0 0;
+	width: 250px;
+	float: left;
+	border: thin black solid;
+	height: 67%;
+	background: -moz-linear-gradient(bottom, maroon, gray);
+}
+
+#page_content {
+	font: normal normal 200 large "arial black";
+	margin-left: 200px;
+	border: thin black solid;
+	height: 70%;
+	background: -moz-radial-gradient(top left, #669999, #D50000, #669999);
+	color: #00FF00;
+}
+
+#footer {
+	padding: 5px;
+	height: 20px;
+	clear: both;
+	border: thin black solid;
+	background-color: #95706A;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.websites p {
+	color: blue;
+	font: normal normal 200 36px arial black;
+}
+

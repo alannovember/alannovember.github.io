@@ -1,0 +1,79 @@
+﻿/* page styels */
+
+.games:hover {
+	height: 227px;
+	width: 315px;
+	
+}
+
+.xgames:hover {
+	height:150%;
+	width:150%;
+	
+}
+
+fieldset {
+	border: thin black double;
+	float: left;
+	margin: 5px;
+	width: 90%;
+}
+
+legend {
+	color: white;
+	padding: 10px 0px;
+	text-indent: 5px;
+}
+	
+fieldset#devices {
+	width: 30%;
+	height: 250px;
+	color: #FFFFFF;
+	font-size: medium;
+	background-color: rgba(215,215,215,0.4);
+}
+	
+input {
+	background-color: #FFFF99;
+	display: inline;
+	width: 200px;
+}
+
+select{
+	
+	background-color: #FFFF99;
+	display:block;
+	margin: 5px 0px;
+}
+
+input.checkbox {
+	height: 13px;
+	width: 13px;
+}
+
+fieldset#issues {
+	background-color: rgba(215,215,215,0.4);
+	margin: 4px 15px;
+	padding: 10px;
+	color: white;
+	width: 30%;
+	height: 250px;
+	clear: right;
+}
+
+input#submit {
+	background-color:orange;
+	margin: 0px 5px 0px 300px;
+}
+
+input#reset{
+	background-color:orange;
+	}
+
+.vidgames {
+	font: normal;
+	color: #FFFFFF;
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+	font-weight: bold;
+}
